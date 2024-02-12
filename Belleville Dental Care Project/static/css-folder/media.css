@@ -1,0 +1,68 @@
+/* responsive website css */
+@media only screen and (max-width:1280px) {
+  #specialized-doc{
+    scrollbar-color:black;
+    overflow: scroll;
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  #hide1{
+display:none;
+  }
+  #hide2{
+    display:contents;
+    height:20px;
+  }
+  #image-carousel{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #btn{
+    transform: scale(0.8);
+  }
+  #margin-b{
+    margin-bottom: -30px;
+  }
+  #box1,#box2,#box3{
+
+overflow: scroll;
+  }
+  #none{
+    display: none;
+  }
+#on-top-text{
+  display: none;
+}
+          #specialized-doc{
+            scrollbar-color:black;
+            overflow: scroll;
+            margin-top: 40px;
+            text-align: center;
+          }
+          #media{
+            width: 100%;
+          }
+          #er-font-size{
+            font-size: 13px !important ;
+          }  
+          
+          .footer-list{
+            margin-left: 5px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+        
+        
